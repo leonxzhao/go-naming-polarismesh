@@ -2,6 +2,8 @@ module trpc.group/trpc-go/trpc-naming-polarismesh
 
 go 1.18
 
+replace trpc.group/trpc-go/trpc-naming-polarismesh => github.com/leonxzhao/go-naming-polarismesh@v0.0.0-20240702092333-48a54f3c2577
+
 require (
 	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.2
